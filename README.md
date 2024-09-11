@@ -9,6 +9,11 @@ Projected created 11 September, 2024
 - Please find the remote repository for this project [here](https://github.com/baselsamy/pdsnd_github).
 - Please find the template for the project [here](https://github.com/udacity/pdsnd_github) (Upstream).
 
+## Libraries and Modules required
+- [Panda](https://pandas.pydata.org/)
+- [Numpy](https://numpy.org/)
+- [Time](https://docs.python.org/3/library/time.html) 
+
 ## Files used
 - bikeshare.py -> **Included in the repo**
 - chicago.csv -> **Not included in the repo, you must obtain the data from the source ([Udacit Naodegree](https://learn.udacity.com/nanodegrees/nd104/parts/cd0024/lessons/ls1727/concepts/92bb098c-ce4d-4b51-a770-45b0ad63e7a1?lesson_tab=lesson))**
