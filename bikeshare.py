@@ -1,3 +1,28 @@
+""" 'Exploring Bikeshare data' script
+
+This script allows the user to analyse the data related to bike share systems for 
+three major cities in the United States—Chicago, New York City, and Washington.
+the script enable the user to filter with city, month, and day.
+ 
+
+This tool accepts comma separated value files (.csv).
+
+This script requires that `pandas` aand 'numpy' be installed within the Python
+environment you are running this script in. 
+
+The script also import 'time' module from the standard python library.
+
+This file contains the following functions:
+
+    * get_filters - Asks user to specify a city, month, and day to analyze
+    * load_data(city, month, day) - Loads data for the specified city and filters by month and day if applicable
+    * time_stats(df) - Displays statistics on the most frequent times of travel
+    * station_stats(df) - Displays statistics on the most popular stations and trip
+    * trip_duration_stats(df) - Displays statistics on the total and average trip duration
+    * user_stats(df) - Displays statistics on bikeshare users
+    * main - the main function of the script
+"""
+
 import time
 import pandas as pd
 import numpy as np
